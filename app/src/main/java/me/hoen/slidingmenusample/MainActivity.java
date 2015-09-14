@@ -36,7 +36,7 @@ public class MainActivity extends BaseActivity {
     protected ArrayList<MenuItem> getSlidingMenuItems() {
         final ArrayList<MenuItem> list = new ArrayList<>();
 
-        list.add(new MenuItem(getString(R.string.first_menu_item), R.mipmap.ic_launcher));
+        list.add(new MenuItem(getString(R.string.first_menu_item)));
 
         return list;
     }
